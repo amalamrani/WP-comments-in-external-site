@@ -1,0 +1,106 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    http://example.com/twenty-seventeen-child/
+ Description:  Twenty Seventeen Child Theme
+ Author:       Amal Amrani
+ Author URI:   http://amrani.es
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-child
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+body{
+
+	font-family: 'Roboto', sans-serif;
+}
+.site-header{
+	background-color: rgb(231, 118, 66);
+}
+.site-title, .site-title a,
+.site-description{
+	color: #FFFFFF;
+}
+.custom-logo-link img{
+    height: 56px;
+}
+
+
+/* COMMENTS STYLES */
+ol.children article{
+	padding-left: 30px;
+}
+ol.children .reply{
+	display: none;
+}
+.avatarImg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.avatar_color {
+    /*display: inline-block;*/
+    text-align: center;
+    line-height: 50px;
+    font-size: 21px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    left: -65px;
+    position: absolute;
+}
+
+.letter-name {
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.comment-author.vcard img, .avatar_color {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.children .comment-author .avatar{
+	height: 50px;
+	width: 50px;
+}
+/*.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar{
+	border: none;
+	padding: 0;
+}*/
+/*.comment-author.vcard .avatar,
+.comment-author.vcard .avatar-color{
+    
+    left: -65px;
+    position: absolute;
+    border: 1px solid red;
+}*/
+.children .comment-author .avatar,
+.children .comment-author .avatar_color{
+	/*width: 50px;
+	height: 50px;*/
+    left: -64px;
+   /* position: absolute;*/
+}
+/*.children .author-comment-details,
+.children .comment-metadata,
+.children .comment-content{
+	margin-left: 25px;
+    display: inline-block;
+}*/
+
+/* END COMMENTS STYLES*/
+
+@media screen and (min-width: 48em){
+	.has-sidebar:not(.error404) #primary {	    
+	    width: 100%;
+	    /*border: 1px solid red;*/
+	}
+}

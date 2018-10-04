@@ -1,0 +1,200 @@
+/* styles of example WordPress comments list in external site  
+*  Author: Amal Amrani
+*  Author URI:  http://amrani.es/
+*/
+
+
+
+#respond-comment-fromWP-to-external-site {
+    font-family: 'Roboto', sans-serif;    
+    line-height: 135%;
+    font-size: 16px;
+    margin-bottom: 50px;
+    background-color: #ececec;
+    overflow-y: auto;
+    border:1px solid green;
+    display: block;
+}
+
+#wp-comments-response, #respond-comment-fromWP-to-external-site {
+    border: none;
+    width: 100%;
+    max-width: 866px;    
+    margin: auto;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+#respond-comment-fromWP-to-external-site h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+#form-submit-comment-fromWP-to-external-site {
+    margin-bottom: 0px;
+}
+
+#form-submit-comment-fromWP-to-external-site p {
+    background-color: rgb(236,236,236);
+    overflow: hidden;
+}
+
+#form-submit-comment-fromWP-to-external-site p label {
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    min-width: 20%;
+    font-size: 16px;
+    vertical-align: top;
+}
+#form-submit-comment-fromWP-to-external-site p input[type=text], #form-submit-comment-fromWP-to-external-site p textarea {
+    border: white;
+    background-color: white;
+    border: white;
+    background-color: white;
+    padding: 8px;
+    width: 318px;
+    max-width: 100%;
+}
+.emailnote {
+    color: rgb(170,170,170);
+    font-size: 12px;
+}
+
+.nonDisplay {
+    display: none;
+}
+.hide{
+  display: none;
+  
+}
+
+.validation-form-messaje {
+    color: #e14a74;
+    padding: 5px 0;
+    font-size: 13px;
+}
+button, #submit-comment-fromWP-to-external-site {    
+    background: #eee;
+    padding: 15px;
+}
+#cancel_reply {
+    border: none;
+    background: none;
+    font-size: 14px;
+    color: #717171;
+    cursor: pointer;
+    margin-right: 16px;
+}
+.div-reply-comment {
+    margin-top: 25px;
+    margin-left: 75px;
+}
+span.comment-reply-link {
+    color: rgb(173,173,173);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 26px;
+    text-transform: lowercase;
+    background: url(../img/reply.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    cursor: pointer;
+}
+#form-submit-comment-fromWP-to-external-site input[type=button] {
+    color: white;
+    font-size: 16px;
+    background-color: #00acee;
+    border: none;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: normal;
+    border-radius: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+
+
+/* comment list*/
+#wp-comments-response ul {
+    margin-top: 75px;
+}
+#wp-comments-response ul, #wp-comments-response ol {
+    list-style-type: none;
+}
+#wp-comments-response li {
+    margin-bottom: 75px;
+}
+
+.comment-author.vcard{
+
+  /*border: 1px solid green;*/
+  position: relative;
+
+}
+
+.letter-name {
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.avatar_color {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 21px;
+    text-transform: uppercase;
+    opacity: 0.85;
+}
+.comment-author img, 
+.avatar_color {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+.avatarImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.author-name {
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;    
+}
+.comment-metadata {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    vertical-align: top;
+    color: rgb(100,100,100);
+}
+.comment-content {
+    margin-left: 75px;
+    font-size: 16px;
+    color: rgb(100,100,100);
+    line-height: 170%;
+}
+.reply-item{
+  color: #04887a;
+  margin-left: 75px;
+}
+#feedback_insert_comment{
+  color: #04887a;
+  margin-bottom: 1em;
+
+}
+
+/* end list comments styles*/
