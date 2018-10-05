@@ -1,5 +1,8 @@
 <?php
+/* 
+Example to integrate WordPress Comments in an external site
 
+*/
 ?>
 <!DOCTYPE html>
 <html  lang="es">
@@ -31,6 +34,7 @@
   <div id="respond-comment-fromWP-to-external-site"  class="hide">
     <div id="feedback_insert_comment"></div>
     <h3>Leave a comment</h3>
+    <span class="emailnote">Your email address will not be published</span>
         
         <form id="form-submit-comment-fromWP-to-external-site" >
 
@@ -41,12 +45,12 @@
             <span class="validation-form-messaje nonDisplay" id="nombre-validation">* Required</span>
           </p>
           <p>
-            <label for="comment-fromWP-to-external-site-email-user">Email<br /><span class="emailnote">(will not be published)</span></label>
+            <label for="comment-fromWP-to-external-site-email-user">Email<br /></label>
             <input id="comment-fromWP-to-external-site-email-user" name="comment-fromWP-to-external-site-email-user" type="text" size="30"/>
             <span class="validation-form-messaje nonDisplay" id="email-validation">* Required</span>
           </p>
           <p>
-            
+            <label for="comment-fromWP-to-external-site-comment-user">Comment<br></label>
             <textarea id="comment-fromWP-to-external-site" name="comment-fromWP-to-external-site" cols="45" rows="8" aria-required="true"></textarea>
             <span class="validation-form-messaje nonDisplay" id="textarea-validation">* Required</span>
           </p>
@@ -56,18 +60,22 @@
             <div id="html_element"></div>  
             <span class="validation-form-messaje nonDisplay" id="captcha-validation" >* Required</span>  
              
-            <button type="button" id="cancel_reply" class="hide" >Cancelar</button>
-            <input name="submit-comment-fromWP-to-external-site" type="button" id="submit-comment-fromWP-to-external-site" class="submit"  onclick="addEventsListenerForm()" value="Submit">
+            <p class="submit-buttons">
+            <button type="button" id="cancel_reply" class="hide" >Cancel</button>
+            <input name="submit-comment-fromWP-to-external-site" type="button" id="submit-comment-fromWP-to-external-site" class="submit"  onclick="addEventsListenerForm()" value="Submit" />
+            </p>
             
-            <input type="hidden" name="comment_fromWP-to-external-site_post_ID" value="" id="comment_fromWP-to-external-site_post_ID">
-            <input type="hidden" name="comment_fromWP-to-external-site_parent" id="comment_fromWP-to-external-site_parent" value="0">
+            <input type="hidden" name="comment_fromWP-to-external-site_post_ID" value="" id="comment_fromWP-to-external-site_post_ID"/>
+            <input type="hidden" name="comment_fromWP-to-external-site_parent" id="comment_fromWP-to-external-site_parent" value="0" />
           </p>
          
          
         </form>
+        <div class="div-captcha">
         <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
           async defer>
         </script>
+        </div>
   </div>
 </div>
 
