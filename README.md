@@ -2,7 +2,7 @@
 # Author Amal Amrani 
 # Author URI: [Amal Amrani website link](http://amrani.es/ "Amal Amrani website")
 
-This code/project explain the way how you can to integrate the WordPress comments into an external and independent site.
+This code/project explains the way how you can to integrate the WordPress comments into an external and independent site.
 You can manage the comments from your WordPress installation to moderate them; approve, reject, delete, etc. 
 In your external site you can show all the approved comments, the comment box for the new comment post and captcha for controlling spam before sending the comment. 
 
