@@ -1,6 +1,6 @@
 # Integrate WordPress comments into external site
 # Author Amal Amrani 
-# Author URI: [Amal Amrani website link](http://amrani.es/ "Amal Amrani website")
+# Author URI: [Amal Amrani Website link](http://amrani.es/ "Amal Amrani website")
 
 This code/project explains the way how you can to integrate the WordPress comments into an external and independent site.
 You can manage the comments from your WordPress installation to moderate them; approve, reject, delete, etc. 
