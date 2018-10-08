@@ -5,9 +5,9 @@ text-align: center;
 }
 
 #respond-comment-fromWP-to-external-site {
-    font-family: 'Roboto', sans-serif;    
+       
     line-height: 135%;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 50px;
     
     overflow-y: auto;
@@ -58,7 +58,7 @@ text-align: center;
 }
 .emailnote {
     color: rgb(148, 148, 148);
-    font-size: 13px;
+    font-size: 14px;
     display: block;
     margin-bottom: 40px;
 }
@@ -97,10 +97,10 @@ button, #submit-comment-fromWP-to-external-site {
     margin-bottom: 25px;
 }
 span.comment-reply-link {
-    color: rgb(132, 131, 131);
+    color: rgb(64, 63, 63);
     text-decoration: none;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 600;
     padding-left: 26px;
     text-transform: lowercase;
     background: url(../img/reply.png);
