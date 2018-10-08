@@ -10,7 +10,7 @@ In your external site you can show all the approved comments, the comment box fo
 I've chosen for this example the latest theme twentyseventeen to which i've created a theme child, twentyseventeen-child. 
 **You must to put it in themes folder under twentyseventeen theme and active it from admin panel appearance->themes**
 
-The folder **twentyseventeen-child** contain:
+The folder **twentyseventeen-child** contains:
 
 The file *comment.php* redefine comment list with 'twenty_seventeen_child_comment' callback function
 
@@ -24,17 +24,17 @@ The file *functions.php* add the new functions to the theme child
 *screenshot.jpg* for the theme child
 
 
-The **js** folder contain:
+The **js** folder contains:
 
 *control-comments.js* the file that makes ajax requests to WordPress, to get the comments list to be shown and to insert a new comment
 
 
-The **css** folder contain:
+The **css** folder contains:
 
 *comments-styles.css* define styles of comments list and comment box in the external site
 
 
-The **img** folder contain:
+The **img** folder contains:
 
 *reply.png* image to reply comment
 *screencapture.png* of example result
