@@ -44,7 +44,7 @@ The **img** folder contains:
 *The comment entries must have been previously created. Each entry will correspond to a page of the external site that will host comments.*
 
  
-In order to including the google reCaptcha, you need two keys:
+In order to include the google reCaptcha, you need two keys:
   
 *1-* 'sitekey' ​: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 The sitekey is added in Javascript file as the example below
